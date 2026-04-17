@@ -1,0 +1,1 @@
+t_s,imu1_roll_deg,imu1_pitch_deg,imu2_roll_deg,imu2_pitch_deg,imu1_roll_rate_dps,imu1_pitch_rate_dps,imu2_roll_rate_dps,imu2_pitch_rate_dps,i_roll_erpm,i_pitch_erpm,d_roll_erpm,d_pitch_erpm,ff_roll_erpm,ff_pitch_erpm,cmd_roll_erpm,cmd_pitch_erpm,motor_roll_erpm,motor_pitch_erpm,motor_roll_amps,motor_pitch_amps,dt_ms,gain_event
