@@ -1,6 +1,6 @@
-# Active Stabilisation Platform — FPD Headless Tune
+# Active Stabilisation Platform — FPID Headless Tune
 
-Two-axis active stabilisation platform for drone landing at sea. A Jetson runs a **200 Hz FF+PD control loop** over USB-to-UART serial, using two BNO08x IMUs — one on the platform (feedback) and one on the boat hull (feedforward) — to drive two CubeMars AK60-39 V3.0 actuators on the roll and pitch axes.
+Two-axis active stabilisation platform for drone landing at sea. A Jetson runs a **200 Hz FF+PID control loop** over USB-to-UART serial, using two BNO08x IMUs — one on the platform (feedback) and one on the boat hull (feedforward) — to drive two CubeMars AK60-39 V3.0 actuators on the roll and pitch axes.
 
 ---
 
@@ -58,7 +58,7 @@ ssh edg5@172.20.10.10
 
 ### `code/main_fpd_tune_headless.py` — Main Control Loop
 
-Runs a **200 Hz FF+PD control loop** headless (no display required). Designed for SSH operation.
+Runs a **200 Hz FF+PID control loop** headless (no display required). Designed for SSH operation.
 
 **Control law:**
 ```
